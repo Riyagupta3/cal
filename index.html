@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>LearnWithCoder</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Riya Gupta</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+
+                    <li><a href="https://ajay20001003003.github.io/mysathi.github.io/">NOTES</a></li>
+                    <li><a href="#">contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <h2 id="top"> Welcome to My Simple Calculator</h2>
+        <div id="calculator">
+            <input type="text" id="display" readonly disabled>
+            <br>
+            <div id="buttons">
+                <button id="clear" onclick="clearDisplay()">C</button>
+                <button id="backspace" onclick="backspace()">X</button>
+                <button id="divide" onclick="addToDisplay('/')">/</button>
+                <button id="multiply" onclick="addToDisplay('*')">*</button>
+                <button id="seven" onclick="addToDisplay(7)">7</button>
+                <button id="eight" onclick="addToDisplay(8)">8</button>
+                <button id="nine" onclick="addToDisplay(9)">9</button>
+                <button id="subtract" onclick="addToDisplay('-')">-</button>
+                <button id="four" onclick="addToDisplay(4)">4</button>
+                <button id="five" onclick="addToDisplay(5)">5</button>
+                <button id="six" onclick="addToDisplay(6)">6</button>
+                <button id="add" onclick="addToDisplay('+')">+</button>
+                <button id="one" onclick="addToDisplay(1)">1</button>
+                <button id="two" onclick="addToDisplay(2)">2</button>
+                <button id="three" onclick="addToDisplay(3)">3</button>
+                <button id="equals" onclick="calculate()">=</button>
+                <button id="zero" onclick="addToDisplay(0)">0</button>
+                <button id="decimal" onclick="addToDisplay('.')">.</button>
+
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <footer id="footer">
+            <p id="copyright">Copyright © 2023 My Website</p>
+            <nav>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+            </nav>
+        </footer>
+</body>
+
+</html>
